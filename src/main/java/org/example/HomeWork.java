@@ -31,5 +31,25 @@ public class HomeWork {
         if(name !=null && lastName == "Omar"){
             System.out.println("name = "+ name +"\nlastname = "+ lastName);
         }
+
+        int outOfRangeInt = Integer.MAX_VALUE+1;
+        System.out.println(outOfRangeInt);
+        int outOfRangeByte = Byte.MAX_VALUE+1;
+        System.out.println(outOfRangeByte);
+
+        //2) попробовать вычисления комбинаций типов данных (int и double)
+
+        int a1 = 25;
+        int a2 = 4;
+        double d1= 5.5;
+        System.out.println(a1/a2);
+
+        System.out.println(a1/d1);
+        System.out.println(a1+d1);
+        System.out.println(a1-d1);
+        System.out.println(a1*d1);
+        System.out.println(a1%d1);
+
+
     }
 }
